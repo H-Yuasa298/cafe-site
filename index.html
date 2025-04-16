@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おしゃれなカフェ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ヘッダーとナビゲーション -->
+  <header>
+    <nav>
+      <div class="logo">Cafe Breeze</div>
+      <ul>
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#about">店舗情報</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>ようこそ、Cafe Breezeへ</h1>
+      <p>癒しのひとときをお過ごしください</p>
+      <button id="viewMenu">メニューを見る</button>
+    </div>
+  </section>
+
+  <!-- 店舗情報セクション -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>店舗情報</h2>
+      <p>
+        Cafe Breeze は、都会の喧騒から離れた落ち着いた雰囲気のカフェです。おしゃれなインテリアと厳選されたコーヒーで、心温まるひとときをお楽しみいただけます。
+      </p>
+    </div>
+  </section>
+
+  <!-- メニューセクション -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>メニュー</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="images/coffee image.png" alt="コーヒー">
+          <h3>コーヒー</h3>
+          <p>香り高いスペシャルブレンド</p>
+        </div>
+        <div class="menu-item">
+          <img src="images/blacktea image.jpg" alt="紅茶">
+          <h3>紅茶</h3>
+          <p>厳選された茶葉の風味</p>
+        </div>
+        <div class="menu-item">
+          <img src="images/pastry image.jpg" alt="ペストリー">
+          <h3>ペストリー</h3>
+          <p>自家製の焼き菓子でほっこり</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせセクション -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>お問い合わせ</h2>
+      <form id="contactForm">
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="message">メッセージ</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      
+        <button type="submit">送信</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2025 Cafe Breeze. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
